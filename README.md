@@ -9,8 +9,8 @@ The first task was to ensure that there was a platform on to which you could use
 ## Task Two
 Task two was introducting the storage of files in order to make this happen, this was through using Vagrant, in more detail th Vagrant file.
 
-## Task Three 
-### Commands 
+## Task Three
+### Commands
 The following task involves the commands used to do specific tasks within the environment, an explanation will follow.
 
 ```
@@ -46,12 +46,12 @@ The following code provides access to the server.
 
 ```
 (Terminal)
-curl <http://localhost> 
+curl <http://localhost>
 ```
 The following code accesses the website through curl.
 
 ## Task Four
-Inside the vagrant file, a network file was established from which a private network was created with a specific IP address. The code is shown below. 
+Inside the vagrant file, a network file was established from which a private network was created with a specific IP address. The code is shown below.
 
 ```rb
   config.vm.network "private_network", ip: "192.168.10.100"
@@ -65,4 +65,3 @@ exit
 vagrant reload
 ```
 If not in the workspace, exit would not need to be inputted.
-
